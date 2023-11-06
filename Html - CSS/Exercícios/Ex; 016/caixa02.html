@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: darkgray;
+        }
+        header {
+            background-color: rgb(68, 68, 68);
+            text-align: left;
+            color: white;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.356);
+            
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+
+        }
+
+        footer >p {
+            padding: 3px;
+        }
+
+        article {
+            color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            text-align: justify;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
+            border-radius: 2px 2px 2px 2px;
+        }
+
+        header > a {
+           text-align: center;
+           text-decoration: none;
+           color: white;
+           background-color: rgba(139, 139, 139, 0.233);
+        }
+
+        .cabeca:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header> <!--Cabeçalho-->
+        <h1>Meu site</h1>
+        <nav> <!--Menu-->
+                <a href="#" class="cabeca">Valorant</a>
+                <a href="#" class="cabeca">CFG</a>
+                <a href="#" class="cabeca">Periféricos</a>
+        </nav>
+    </header>
+    <main><!--Conteúdo-->
+        <section id="assuntos"> <!--Seções-->
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere obcaecati totam maxime voluptatum earum perspiciatis necessitatibus soluta! Eos, libero sequi unde vitae, quod rem consectetur soluta minus omnis, delectus iusto!</p>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum repellat adipisci rerum libero. Delectus quos tenetur magni laborum, optio explicabo atque quae cumque! Pariatur nostrum maiores iste, eveniet cumque doloremque?</p>
+            </article>
+        </section>
+    </main>
+    <footer> <!--Rodapé-->
+        <p>Desenvolvido pelo site em video</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de texto</title>
+</head>
+<body>
+    <h1>Principais formatações de texto</h1><hr>
+    <h2>Negrito ou destaque</h2>
+    <p>Nessa frase temos um termo <b>em negrito</b> usando a tag &lt; b &gt; essa forma é não semântica.</p>
+    <p>Nesta frase temos um termo <strong>em negrito</strong> usando a tag &lt; STRONG &gt;.</p>
+
+    <h2>Itálico</h2>
+    <p>Nessa frase temos um termo <i>em italico</i> usando a forma <strong>NÃO</strong> semântica &lt; i &gt;.</p>
+    <p>Nesta frase <i>usei o comando</i> &lt; cntrl + shift + p &gt; para acessar uma aba e usar a "Wrab with abreviation" e apertei "i". É importante selecionar oq quer por itálico antes de entrar na aba de pesquisa.</p>
+
+    <h2>Destaque</h2>
+    <p>Nesta frase temos um termo <em>em destaque</em> usando a tag <strong>EM</strong>, o comando &lt; cntrl + shift + p &gt; é muito util para otimizar a escrita.</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também um <mark style="background-color: rgb(170, 255, 208);">texto marcado</mark> usando a tag <strong>Mark</strong>, para mudar a cor usei CSS com o comando <strong>style="background-color"</strong> dentro da tag <strong>Mark</strong></p>
+
+    <h2>Texto grande e texto pequeno</h2>
+    <p> Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> neste parágrafo.</p>
+
+    <h2>Texto deletado</h2>
+    <p>Podemos também marcar um texto como <del>deletado</del> <strong>"usei o marcador &lt; del &gt;"</strong>, para mostrar que ele deve ser lido mas não inserido.</p>
+
+    <h2>Texto inserido</h2>
+    Podemos marcar um texto como <ins>inserido</ins> <strong>"usei o marcador &lt; ins &gt;"</strong> para dar ênfase e indicar que ele foi adicionado depois.
+    <h2>Texto sobrescrito</h2>
+    <p>Para escrever coisas como x<sup>20</sup>=4. Usei a tag <strong>&lt; sup &gt;</strong>.</p>
+    
+    <h2>Texto subscrito</h2>
+    Para coisas do tipo H<sub>2</sub>O<sub>1</sub>. Usei a tag <strong>&lt; sub &gt;</strong>.
+    <h2>Código fonte/Pré formatação</h2>
+    <p>O comando <code>document.getElementById</code> (teste) é escrito em linguagem JavaScript. usei o comando <strong>&lt; code &gt;</strong> para melhorar o espassamento das letras no código.</p>
+    
+    <h2>Organização</h2>
+    <pre>
+        <code>
+        num = int(input('digite um número'))
+        if num % == 0:
+            print(f'O número {num} é PAR')
+        else:
+            print(f'O número {num} é IMPAR')
+        print(f'Fim do programa)
+        </code>
+    </pre>
+    Usei a marcação <strong>&lt; pre &gt;</strong> para manter todos os espassamentos do código.
+    
+    <h2>Citações</h2>
+    Uma vez um gênio disse: <q>tudo lixo! até esse arn!</q>, usei a marcação <strong>&lt; q &gt;</strong>
+    
+    <h2>Citações completas</h2>
+    <p>O rei da filosofia piton uma vez disse <blockquote cite="https://youtu.be/F3D553hPRD4?si=AUEb8sPj3UI3Lb-2"> Tudo na vida depende do tanto que você quer comer alguém.</blockquote> Usei a marcação <strong>&lt; blockquote &gt;</strong> e a marcação <strong>&lt; cite &gt;</strong> "Dentro de blockquote" para sinalizar a fonte da frase.</p>
+    
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. está muito divertido. As marcações eu fiz com a marcação <Strong>&lt; abbr &gt;</Strong>.</p>
+    
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em <abbr title="HyperText Markup Language">HTML</abbr></bdo>. <br>Eu inverti usando a marcação <strong>&lt; bdo &gt;</strong></p>
+</body>
+</html>

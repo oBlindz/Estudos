@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Immagem dinâmica</h1>
+    <p>Tentar abrir esse site pelo cell ou diminuir e aumentar o navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/Pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/Médio.png" type="image/png">
+        <img src="Imagens/Grande.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo aúdio</h1>
+    <ul>
+        <p>Hora de cantar paeeeeeeeee</p>
+        <li>
+            <audio src="midia/babymandala.mp3" controls></audio>
+            <!--MP3, WAV, OGG-->
+        </li>
+        <p>Outra maneira</p>
+        <li>
+            <audio preload="auto" controls loop>
+                <source src="midia/babymandala.mp3" type="audio/mp3">
+            </audio>
+        </li>
+    </ul>
+    <p>
+        <big>Infelizmente seu navegador pode estar com dificuldade em carregar a música, se desejar pode <strong><a href="midia/babymandala.mp3">baixa-lá</a></strong> e ouví-la offline!</big>
+    </p>
+    <h1>Vídeos</h1>
+    <p>Agora vou te mostrar um pouco de videos hahaha</p>
+    <ul>
+        <li>Esse video está hospedado no <strong>meu servidor</strong></li>
+        <video src="videos/production_id_4232194 (2160p).mp4" width="500" controls poster="Imagens/Sem-Título-1.png"></video>
+        <li>Outra forma, posso colocar formatos "pode ser <strong>MUITO</strong> pesado!"</li>
+        <video width="500" controls poster="Imagens/Sem-Título-1.png">
+            <source src="videos/1012(1).mp4" type="video/mp4">
+            <source src="videos/production_id_4232194 (2160p).mp4" type="video/mp4">
+        </video>
+        <h1>Video direto do youtube</h1>
+        <iframe width="480" height="270" src="https://www.youtube.com/embed/QNWQHqr8fAE?si=HJECdv_Z2XZqc4iA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </ul>
+</body>
+</html>
