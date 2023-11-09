@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de rolagem lateral</title>
+    <style>
+
+      .caixa {
+        width: 60vw;
+        height: 12rem;
+        background-color: gray;
+        margin: 4rem auto 0 auto;
+        display: flex;
+        padding: 1rem;
+        overflow-x: auto;
+      }
+
+      .caixa > div {
+        min-width: 12rem;
+        max-height: 12rem;
+        background-color: red;
+        border: solid black;
+        margin-left: 2rem;
+      }
+
+      div > p {
+        color: white;
+        text-align: center;
+        font-weight: bolder;
+      }
+
+    </style>
+</head>
+<body>
+  <div class="caixa">
+    <div><p>1</p></div>
+    <div><p>2</p></div>
+    <div><p>3</p></div>
+    <div><p>4</p></div>
+    <div><p>5</p></div>
+  </div>
+</body>
+</html>
