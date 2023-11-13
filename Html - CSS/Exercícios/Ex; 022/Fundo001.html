@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagem de fundo</title>
+    <style>
+
+        .quadrada {
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            border-radius: 5px;
+            background-color: gray;
+        }
+
+        .retanfular {
+            border: 1px solid black;
+            width: 600px;
+            height: 300px;
+            display: inline-block;
+            border-radius: 5px;
+            background-color: gray;
+        }
+
+        div#q1 {
+            background-color: aqua;
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+
+        div#q3 {
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+        }
+
+    </style>
+</head>
+<body>
+        <div class="quadrada" id="q1"></div>
+        <div class="quadrada" id="q2"></div>
+        <div class="retanfular" id="q3"></div>
+</body>
+</html>
