@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background: url('imagens/loooja\ samsung.jpg');
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+section#telefone {
+    position: absolute;
+    height: 620px;
+    width: 311px;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('imagens/ssssssssssssssssssssssssssaaaaaaaaammm.png') no-repeat;
+    
+}
+
+iframe#tela {
+    position: relative;
+    top: 61px;
+    left: 19px;
+    width: 274px;
+    height: 500px;
+    border-radius: 3px;
+}
