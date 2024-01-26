@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <style>
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+
+        h1, p {
+            text-align: center;
+        }
+
+        main {
+            width: 800px;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Sistema de detecção de multa automático!</h1>
+        <p>Digite o valor indicado na nota para saber se foi ou não multado</p>
+        <input type="number" name="vel" id="ivel">
+        <input type="button" value="Verificar" onclick="calcular()">
+        <div id="km">
+            
+        </div>
+    </main>
+
+    <script>
+        function calcular() {
+
+            var velo = window.document.getElementById('ivel')
+            var veloc = Number(ivel.value)
+            
+            if (veloc > 60) {
+                km.innerHTML = `Sua velocidade é de ${veloc}km/h e <strong>você foi multado!</strong>`
+            } else {
+                km.innerHTML = `Sua velocidade é de ${veloc}km/h e você <strong>não foi multado!</strong>`
+            }
+        }
+    </script>
+</body>
+</html>

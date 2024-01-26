@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual sua nacionalidade</title>
+    <style>
+
+    
+
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <h2>Esse website tem o propósito de brincar com sua nacionalidade de uma forma bem saudável! Digite abaixo sua nacionalidade para poder participar da brincadeira!</h2>
+
+    <input type="text" name="input-pais" id="iinput-pais" autocomplete="none">
+    <input type="button" value="Enviar" onclick="piadoca()">
+
+    <div id="itela">
+        
+    </div>
+
+    <script>
+        function piadoca() {
+            var pais = document.getElementById('iinput-pais').value;
+            var tela = document.getElementById('itela');
+
+            if (pais === 'Brasil') {
+                tela.innerHTML = 'Você é brasileiro, então a piada é: Por que o brasileiro não chama o Batman? Porque ele tem medo do Bat-sina!';
+            } else if (pais === 'EUA') {
+                tela.innerHTML = 'Você é dos EUA, então a piada é: Por que o hamburguer foi ao médico? Porque estava se sentindo um pouco "cheese-mal"!';
+            } else if (pais === 'Japão') {
+                tela.innerHTML = 'Você é japonês, então a piada é: Por que o sushi não empresta dinheiro? Porque é sempre enrolado!';
+            } else if (pais === 'Alemanha') {
+                tela.innerHTML = 'Você é alemão, então a piada é: Por que os alemães não contam piadas? Porque as piadas são hilariantes!';
+            } else if (pais === 'Austrália') {
+                tela.innerHTML = 'Você é australiano, então a piada é: Por que os cangurus nunca terminam a escola? Porque sempre pulam de ano!';
+            } else if (pais === 'Índia') {
+                tela.innerHTML = 'Você é indiano, então a piada é: Por que o curry nunca fica bravo? Porque sempre se acalma!';
+            } else if (pais === 'Canadá') {
+                tela.innerHTML = 'Você é canadense, então a piada é: Por que o esquilo usa óculos? Porque ele perdeu suas nozes!';
+            } else if (pais === 'Rússia') {
+                tela.innerHTML = 'Você é russo, então a piada é: Por que os russos são bons em xadrez? Porque têm muita paciência na fila!';
+            } else if (pais === 'México') {
+                tela.innerHTML = 'Você é mexicano, então a piada é: Por que o feijão nunca está sozinho? Porque sempre está acompanhado!';
+            } else if (pais === 'França') {
+                tela.innerHTML = 'Você é francês, então a piada é: Por que a baguete nunca fica entediada? Porque ela sempre tem um croissant!';
+            } else if (pais === 'China') {
+                tela.innerHTML = 'Você é chinês, então a piada é: Por que os chineses são bons em matemática? Porque têm uma mente chinesa!';
+            } else if (pais === 'Argentina') {
+                tela.innerHTML = 'Você é argentino, então a piada é: Por que o argentino não lê o jornal? Porque o jornal tem muitas notícias!';
+            } else if (pais === 'Egito') {
+                tela.innerHTML = 'Você é egípcio, então a piada é: Por que os faraós nunca contam segredos? Porque eles estão sempre enterrados!';
+            } else if (pais === 'Suécia') {
+                tela.innerHTML = 'Você é sueco, então a piada é: Por que os suecos não usam elevador? Porque têm medo de estar no nível errado!';
+            } else if (pais === 'Coreia do Sul') {
+                tela.innerHTML = 'Você é sul-coreano, então a piada é: Por que os coreanos nunca são artistas de circo? Porque já dominaram a arte do equilíbrio!';
+            } else if (pais === 'Índia') {
+                tela.innerHTML = 'Você é indiano, então a piada é: Por que o curry nunca fica bravo? Porque sempre se acalma!';
+            } else if (pais === 'Nigéria') {
+                tela.innerHTML = 'Você é nigeriano, então a piada é: Por que os nigerianos são ótimos contadores de histórias? Porque têm muitas lendas!';
+            } else if (pais === 'Noruega') {
+                tela.innerHTML = 'Você é norueguês, então a piada é: Por que os noruegueses nunca jogam esconde-esconde? Porque sempre encontram!';
+            } else if (pais === 'Índia') {
+                tela.innerHTML = 'Você é indiano, então a piada é: Por que o curry nunca fica bravo? Porque sempre se acalma!';
+            } else {
+                tela.innerHTML = 'Desculpe, não temos uma piada para o seu país. Mas sinta-se à vontade para participar da brincadeira!';
+            }
+        }
+    </script>
+</body>
+</html>
