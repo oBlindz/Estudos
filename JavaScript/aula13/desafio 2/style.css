@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: rgb(78, 174, 206);
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section {
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.452);
+}
+
+#itexto {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#imagem {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    height: 250px;
+}
+
+footer {
+    top: 430px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+footer > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
