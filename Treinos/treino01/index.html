@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de pagamento!</title>
+</head>
+<body>
+    <header>
+            <div>
+                <h1 class="texto">
+                    Sua calculadora automática!
+                </h1>
+                <p class="texto">
+                    calcule de forma rápida e automática o seu pagamento! E a divisão equalitária do mesmo!
+                </p>
+            </div>
+    </header>
+    <main>
+        <section>
+            <div> 
+                <!--valor do pagamento-->
+                <label for="pagamento" class="texto">Pagamento</label>
+                <input type="number" id="pagamento" placeholder="Valor a ser recebido" class="espaço">
+            </div>
+            <div>
+                <!--valor do cambio-->
+                <label for="cambio" class="texto">Taxa de câmbio</label>
+                <input type="number" id="cambio" placeholder="Valor do câmbio" class="espaço">
+            </div>
+            <div>
+                <!--quantas pessoas vão dividir-->
+                <label for="pessoas" class="texto">Pessoas</label>
+                <input type="number" id="pessoas" placeholder="Número de pessoas" class="espaço">
+            </div>
+            <div>
+                <input type="submit" id="enviar" class="enviar" value="Calcular" onclick="calcular()">
+                <p id="iresultado"></p>
+                <!--resultado-->
+            </div>
+        </section>
+    </main>
+    <!--Esse treino têm como foco criar uma calculadora funcional de pagamento internacional!-->
+    <script src="javateste.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    position: relative;
+}
+header {
+    width: 100vw;
+    padding: 20px 0px;
+}
+.texto {
+    text-align: center;
+}
+main {
+    width: 100vw;
+}
+main > section {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.espaço {
+    margin-bottom: 10px;
+    text-align: center;
+}
