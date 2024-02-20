@@ -14,15 +14,17 @@
         <section>
             <div> <!--Local para colocar a idade-->
                 Ano de nascimento :
-                <input type="text" name="#" id="iidade">
+                <input type="number" name="#" id="iidade">
             </div>
             <div> <!--Local para colocar o sexo-->
                 Sexo :
-                <input type="radio" name="#" id="isexo"> Masculino
-                <input type="radio" name="#" id="isexo"> Feminino 
+                <input type="radio" name="ssex" id="isexom" checked>
+                <label for="isexom">Masculino</label>
+                <input type="radio" name="ssex" id="isexof">
+                <label for="isexof">Feminino</label>
             </div>
             <div> <!--Local para enviar-->
-                <input type="submit" value="Verificar">
+                <input type="submit" value="Verificar" onclick="enviar()">
             </div>
             <div> <!--Local onde aparece o texto-->
                 <p id="itexto">Olá, Mundo!</p>
