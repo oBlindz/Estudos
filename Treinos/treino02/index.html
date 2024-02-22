@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de foco!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Esse é um teste de campo!</h1>
+            <div id="container">
+                <div class="tamanho" id="cor1" onmouseenter="foco(this)" onmouseleave="fora(this)"></div>
+                <div class="tamanho" id="cor2" onmouseenter="foco(this)" onmouseleave="fora(this)"></div>
+                <div class="tamanho" id="cor3" onmouseenter="foco(this)" onmouseleave="fora(this)"></div>
+            </div>
+        </section>
+    </main>
+    <script>
+        function foco(elemento) {
+            elemento.style.border = "5px solid rgba(0, 0, 0, 0.397)";
+            elemento.style.backgroundColor = "green"
+        }
+        function fora(elemento) {
+            elemento.style.border = "none";
+            elemento.style.backgroundColor = "rgba(114, 114, 114, 0.5)"
+        }
+    </script>
+</body>
+
+</html>
