@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 3</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
         <h1>Vamos contar!</h1>
         <section>
-            <label for="inicio">Início</label>
-            <input type="number" name="inicio" id="inicio">
+            <div id="container">
+                <label for="inicio">Início</label>
+                <input type="number" class="oi" name="inicio" id="inicio" placeholder="valor de início"> <br>
 
-            <label for="fim">Fim</label>
-            <input type="number" name="fim" id="fim">
+                <label for="fim">Fim</label>
+                <input type="number" class="oi" name="fim" id="fim" placeholder="valor para parar"> <br>
 
-            <label for="espaço">Espaço</label>
-            <input type="number" name="espaço" id="espaço">
+                <label for="espaço">Espaço</label>
+                <input type="number" class="oi" name="espaço" id="espaço" placeholder="espaço entre"> <br>
 
-            <input type="submit" value="Enviar" id="enviar">
+                <input type="submit" value="Enviar" id="enviar" onclick="enviar()">
+                <p id="contagem">Preparando contagem...</p>
+            </div>
         </section>
-        <a href="#">@yBlindz</a>
+        <div id="container">
+            <a href="#">@yBlindz</a>
+        </div>
     </main>
 </body>
 </html>

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    margin:0px;
+    padding:0px;
+    font-family:arial;
+}
+body {
+    background-color:lightskyblue;
+}
+#container {
+    padding:20px;
+    position:relative;
+}
+section {
+    background-color:white;
+    margin: auto;
+    max-width: 600px;
+    position:relative;
+    border-radius:10px;
+}
+.oi {
+    margin-bottom:5px;
+}
+#enviar {
+    margin: 10px 0px;
+}
+#contagem {
+    margin:20px 0px;
+}
+h1 {
+    text-align:center;
+    color:white;
+    margin: 20px 0px;
+}
+#enviar {
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%)
+}
+a {
+    text-decoration:none;
+    color:white;
+    text-align:center;
+    font-weight:bolder;
+    margin:0px;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
