@@ -4,26 +4,29 @@
     padding:0px;
     font-family:arial;
 }
+body, html {
+    overflow-x: hidden;
+}
 header {
     background-image: url(imagens/SO2_MC456_IMG_V1_1920x1080_EN.jpg);
     background-position: center top ;
     background-size:cover;
     background-repeat:no-repeat;
-    height:600px;
+    height:500px;
     padding:10px;
     position:relative;
     box-shadow: 0px 5px 35px #00000063;
 }
 header > h1 {
     position:absolute;
-    top:530px;
+    top:430px;
     color: white;
     margin: 0px 5px;
 }
 header > nav {
     display:flex;
     position:absolute;
-    top:580px;
+    top:480px;
 }
 header > nav > p {
     color:white;
@@ -35,23 +38,27 @@ header > nav > p {
     border-radius:3px;
 }
 #posicionador {
-    background-color: blue;
     width: 115px;
     height: 150px;
     position:absolute;
-    left:90vw;
+    left:74vw;
+    top:370px;
 }
 div#container > p {
     color:white;
     font-weight:bolder;
-    position:absolute;
+    left: 27%;
     transform: rotate(-90deg);
+    position:relative;
 }
 .losango {
     height:50px;
     width:50px;
     transform:rotate(45deg);
     border:2px solid rgb(253, 71, 101);
+    position:relative;
+    top:50px;
+    left:10%;
 }
 .losango > p {
     transform: rotate(-45deg);
@@ -61,4 +68,14 @@ div#container > p {
     color:white;
     font-weight:bold;
     font-size: 2em;
+}
+main {
+    height:100vh;
+    max-width:800px;
+    margin:auto;
+    background-image:url(imagens/windows-11-darker-microsoft-opera-8r.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
