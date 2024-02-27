@@ -69,13 +69,121 @@ div#container > p {
     font-weight:bold;
     font-size: 2em;
 }
+h1 {
+    padding-bottom:5px;
+}
 main {
     height:100vh;
     max-width:800px;
+    padding: 15px 15px;
     margin:auto;
-    background-image:url(imagens/windows-11-darker-microsoft-opera-8r.jpg);
+    background-image:url(imagens/wp6292153.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+section {
+    padding:10px 15px;
+    margin-bottom:20px;
+}
+section#dev {
+    display:grid;
+    grid-template-columns: 75% 25%;
+}
+div#foto-pequena {
+    width:70px;
+    height:120px;
+    background-color:purple;
+    margin-left: 20px ;
+    border:1px solid rgb(253, 71, 101);
+    border-radius:5px;
+    background-image:url(imagens/SO2_MC456_IMG_V1_1920x1080_EN.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+.fundo {
+    background-color:rgba(255, 96, 122, 0.548);
+    border:1px solid rgb(253, 71, 101);
+    border-radius:5px;
+    padding:10px 15px;
+    margin-bottom:20px;
+    color:white;
+}
+div#redes {
+    display: grid;
+    grid-template-columns: 50px 20px 20px;
+    grid-template-rows:20px;
+    gap: 7px;
+}
+#price {
+    background-color:rgb(187, 27, 27);
+    width:50px;
+    height:20px;
+    padding-top:3%;
+    border-radius:5px;
+    text-align:center;
+    color:white;
+}
+#apple{
+    background-image: url(imagens/313717.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center center;
+}
+#playstore{
+    background-image:url(imagens/google-play-store-icon-logo-symbol-free-png.webp);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center center;
+}
+.tes{
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+}
+#check{
+    margin:10px 0px;
+    padding:15px;
+    text-align:center;
+    background-color:rgba(255, 96, 122, 0.548);
+    border:1px solid rgb(253, 71, 101);
+    border-radius:5px;
+}
+section#grid-fotos{
+    display:grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 150px;
+    gap:10px;
+    overflow-x: auto;
+}
+div.fotos{
+    width:300px;
+    height:150px;
+    background-color:purple;
+}
+div#foto1{
+    background-image:url(imagens/1R_STNDF2KGD1f3.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+div#foto2{
+    background-image:url(imagens/area_vk_oblojka.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+div#foto3{
+    background-image:url(imagens/Stndf2_Medal2024_Ruby.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+div#foto4{
+    background-image:url(imagens/Untitled42_20240219210109_EDIT_1708365828263.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
 }
