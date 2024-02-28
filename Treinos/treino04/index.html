@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conversor de métricas!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Conversor de medidas</h1>
+        <section> <!--valores!-->
+            <p>
+                <select name="métrica" id="imétrica">
+                    <option value="KM">KM</option>
+                    <option value="HM">HM</option>
+                    <option value="DAM">DAM</option>
+                    <option value="METRO">METRO</option>
+                    <option value="DM">DM</option>
+                    <option value="CM">CM</option>
+                    <option value="MM">MM</option>
+                </select>
+                <select name="potência" id="ipotência">
+                    <option value="Normal">Normal</option>
+                    <option value="AoQuadrado">Ao quadrado</option>
+                    <option value="AoCubo">Ao cubo</option>
+                </select>
+                <input type="number" name="medida" id="imedida" placeholder="Coloque a medida:">
+                <input type="button" value="Calcular" onclick="calc()">
+            </p>
+        </section>
+        <section> <!--seção de resultado!-->
+            <div>
+                <p id="KM">KM: </p>
+                <p id="HM">HM: </p>
+                <p id="DAM">DAM: </p>
+                <p id="METRO">METRO: </p>
+                <p id="DM">DM: </p>
+                <p id="CM">CM: </p>
+                <p id="MM">MM: </p>
+            </div>
+        </section>
+        <div id="segue">
+            <a href="#">@yBlindz</a>
+        </div>
+    </main>
+    <script src="aa.js"></script>
+</body>
+</html>
