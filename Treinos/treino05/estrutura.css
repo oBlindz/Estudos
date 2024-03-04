@@ -9,6 +9,8 @@ h1 {
     margin:20px 0px;
 }
 section#container {
+    padding:5px;
+    position:relative;
     background-color:purple;
     width:1280px;
     height:720px;
@@ -17,11 +19,26 @@ section#container {
     overflow: hidden;
 }
 div#stats1{
-	  row-gap: 3px;
+	row-gap: 3px;
     gap: 3px;
-    grid-template-rows: 55px 25px 25px 25px 25px 25px 55px 25px 25px 25px 25px 25px;
-    grid-template-columns:200px 130px 130px 130px 130px 130px 106px 130px 170px;
+    grid-template-rows: 55px 25px 25px 25px 25px 25px;
+    grid-template-columns: 140px 100px 100px 100px 100px 100px 85px 100px 150px;
     display:grid;
+    position:absolute;
+    top:80px;
+    left: 50%;
+    transform:translate(-50%);
+}
+div#stats2{
+	row-gap: 3px;
+    gap: 3px;
+    grid-template-rows: 55px 25px 25px 25px 25px 25px;
+    grid-template-columns:140px 100px 100px 100px 100px 100px 85px 100px 150px;
+    display:grid;
+    position:absolute;
+    top:440px;
+    left: 50%;
+    transform:translate(-50%);
 }
 div.cabeça1, div.cabeça2{
     text-align: center;
@@ -30,12 +47,46 @@ div.cabeça1, div.cabeça2{
     background-color:gray;
     color: white;
     line-height: 55px; /* Ajuste o valor conforme necessário */
+    border-radius:5px;
 }
-div.corpo1, div.cabeça2{
+div.corpo1, div.corpo2{
     text-align: center;
     font-weight: bolder;
     font-size:medium;
     background-color:gray;
     color: white;
     line-height:25px;
+    border-radius:5px;
+}
+div#banners{
+    background-color: lightblue;
+    position: absolute;
+    display:grid;
+    grid-template-columns:133px auto 133px;
+    overflow:hidden;
+    gap: 5px;
+    border-radius:5px;
+    padding:5px;
+    top: 291px;
+    left: 249px;
+    height: 123px;
+    width: 800px;
+}
+div.logo1{
+    width:133px;
+    height:123px;
+    border-radius:5px;
+    background-color:white;
+}
+div.mapa{
+    border-radius:5px;
+    width: auto;
+    height: 123px;
+    background-color: aquamarine;
+}
+div.logo2{
+    width:133px;
+    height:123px;
+    border-radius:5px;
+    background-color:white;
 }
