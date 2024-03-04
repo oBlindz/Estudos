@@ -29,7 +29,10 @@ div.cabeça1, div.cabeça2{
     color: white;
     line-height: 55px; /* Ajuste o valor conforme necessário */
 }
-div.corpo1, divcabeça2{
+div.cabeça2{
+	margin-top:90px;
+}
+div.corpo1, div.cabeça2{
     text-align: center;
     font-weight: bolder;
     font-size:medium;
