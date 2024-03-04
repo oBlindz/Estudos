@@ -37,3 +37,8 @@ div.corpo1{
     color: white;
     line-height:25px;
 }
+div.midRow {
+	width: 1280;
+	height 200px;
+	background-color: lightgrey;
+}
