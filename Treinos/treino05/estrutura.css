@@ -38,6 +38,7 @@ div.corpo1{
     line-height:25px;
 }
 div.midRow {
+	display:flex;
 	width: 1280;
 	height 60px;
 	background-color: lightgrey;
