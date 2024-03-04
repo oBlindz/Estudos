@@ -30,7 +30,7 @@ div.cabeça1, div.cabeça2{
     line-height: 55px; /* Ajuste o valor conforme necessário */
 }
 div.cabeça2{
-	
+	 margin-top:5px;
 }
 div.corpo1, div.cabeça2{
     text-align: center;
