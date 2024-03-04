@@ -11,7 +11,7 @@ h1 {
 section#container {
     row-gap: 3px;
     gap: 3px;
-    grid-template-rows: 42px 25px 25px 25px 25px 25px;
+    grid-template-rows: 22px 25px 25px 25px 25px 25px;
     grid-template-columns:200px 130px 130px 130px 130px 130px 106px 130px 170px;
     display:grid;
     background-color:purple;
@@ -27,7 +27,7 @@ div.cabeça1{
     font-size:large;
     background-color:gray;
     color: white;
-    line-height: 42px; /* Ajuste o valor conforme necessário */
+    line-height: 22px; /* Ajuste o valor conforme necessário */
 }
 div.corpo1{
     text-align: center;
