@@ -21,7 +21,7 @@ section#container {
     border-radius: 20px;
     overflow: hidden;
 }
-div.cabeça1{
+div.cabeça1, div.cabeça2{
     text-align: center;
     font-weight: bolder;
     font-size:large;
@@ -29,16 +29,11 @@ div.cabeça1{
     color: white;
     line-height: 55px; /* Ajuste o valor conforme necessário */
 }
-div.corpo1{
+div.corpo1, divcabeça2{
     text-align: center;
     font-weight: bolder;
     font-size:medium;
     background-color:gray;
     color: white;
     line-height:25px;
-}
-div.midRow {
-	width: 1280px;
-	margin:10px 0px;
-	background-color: lightgrey;
 }
