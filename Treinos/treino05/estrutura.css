@@ -11,7 +11,7 @@ h1 {
 section#container {
     row-gap: 3px;
     gap: 3px;
-    grid-template-rows: 55px 25px 25px 25px 25px 25px 120px 55px 25px 25px 25px 25px 25px;
+    grid-template-rows: 55px 25px 25px 25px 25px 25px 55px 25px 25px 25px 25px 25px;
     grid-template-columns:200px 130px 130px 130px 130px 130px 106px 130px 170px;
     display:grid;
     background-color:purple;
