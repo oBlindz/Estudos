@@ -9,17 +9,19 @@ h1 {
     margin:20px 0px;
 }
 section#container {
-    row-gap: 3px;
-    gap: 3px;
-    grid-template-rows: 55px 25px 25px 25px 25px 25px 55px 25px 25px 25px 25px 25px;
-    grid-template-columns:200px 130px 130px 130px 130px 130px 106px 130px 170px;
-    display:grid;
     background-color:purple;
     width:1280px;
     height:720px;
     margin:0px auto;
     border-radius: 20px;
     overflow: hidden;
+}
+div#stats1{
+	  row-gap: 3px;
+    gap: 3px;
+    grid-template-rows: 55px 25px 25px 25px 25px 25px 55px 25px 25px 25px 25px 25px;
+    grid-template-columns:200px 130px 130px 130px 130px 130px 106px 130px 170px;
+    display:grid;
 }
 div.cabeça1, div.cabeça2{
     text-align: center;
