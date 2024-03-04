@@ -39,5 +39,6 @@ div.corpo1{
 }
 div.midRow {
 	width: 1280px;
+	margin:10px 0px;
 	background-color: lightgrey;
 }
