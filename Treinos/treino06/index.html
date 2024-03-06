@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>CALCULADORA DE IMC</h1>
+            <p>Altura: <input type="number" name="alt" id="alt" placeholder="Coloque sua altura CM"></p>
+            <p>Peso: <input type="number" name="pes" id="pes" placeholder="Coloque o seu peso Kg"></p>
+            <input type="button" value="Calcular" onclick="calc()">
+            <div id="res">
+                <div class="eita" id="faixa">Faixa de IMC</div>
+                <div class="eita" id="faixaP">Peso</div>
+
+                <div class="eita">abaixo de 15</div>
+                <div class="eita">extremamente abaixo do peso</div>
+
+                <div class="eita">entre 15 e 16</div>
+                <div class="eita">gravemente abaixo do peso</div>
+
+                <div class="eita">entre 16 e 18,5</div>
+                <div class="eita">abaixo do peso ideal</div>
+
+                <div class="eita">entre 18,5 e 25</div>
+                <div class="eita">faixa de peso ideal</div>
+
+                <div class="eita">entre 25 e 30</div>
+                <div class="eita">sobrepeso</div>
+
+                <div class="eita">entre 30 e 35</div>
+                <div class="eita">obesidade grau I</div>
+
+                <div class="eita">entre 35 e 40</div>
+                <div class="eita">obesidade grau II</div>
+
+                <div class="eita">acima de 40</div>
+                <div class="eita">obesidade grau III</div>
+            </div>
+        </section>
+    </main>
+    <script src="olaninho.js"></script>
+</body>
+</html>
