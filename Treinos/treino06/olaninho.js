@@ -1,6 +1,5 @@
 let altura = document.querySelector('input#alt');
 let peso = document.querySelector('input#pes');
-let cor = document.getElementsByClassName('eita');
 
 function isNumero(n){
     if (Number(n) == 0){
