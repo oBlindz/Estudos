@@ -21,7 +21,23 @@ function calc(){
         let n1 = parseFloat(peso.value);
         let n2 = parseFloat(altura.value);
         let res = n1 / (n2 * n2);
+        if (res <= 15){
         window.alert(`${res.toFixed(2)}`);
+        } else if (res <= 16){
+        	window.alert(`${res.toFixed(2)}`);
+        } else if (res <= 18,5){
+        	window.alert(`${res.toFixed(2)}`);
+        } else if (res <= 25){
+        	window.alert(`${res.toFixed(2)}`);
+        } else if (res <= 30){
+        	window.alert(`${res.toFixes(2)}`);
+        } else if (res <= 35){
+        	window.alert(`${res.toFixed(2)}`);
+        } else if (res <= 40){
+        	window.alert(`${res.toFixed(2)}`);
+        } else if (res >= 40){
+        	window.alert(`${res.toFixed(2)}`);
+        }
     } else {
         window.alert('qualé mané, põe os valores ai namoral >:(');
     }
