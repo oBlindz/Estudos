@@ -23,6 +23,7 @@ function calc(){
         let res = n1 / (n2 * n2);
         if (res <= 15){
         window.alert(`${res.toFixed(2)}`);
+        document.body.main.section.div#res.div#p1.style.backgroundColor = 'purple';
         } else if (res <= 16){
         	window.alert(`${res.toFixed(2)}`);
         } else if (res <= 18,5){
