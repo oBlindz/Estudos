@@ -34,7 +34,7 @@ div#faixaP{
     border:none;
     box-shadow:3px 3px 0px rgba(128, 128, 128, 0.521);
 }
-div.eita{
+div.eita, div.eita1{
     padding:5px;
     border:1px dashed rgba(0, 0, 0, 0.384);
 }
