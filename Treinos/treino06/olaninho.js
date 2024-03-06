@@ -25,6 +25,8 @@ function calc(){
         window.alert(`${res.toFixed(2)}`);
         let cor1 = document.getElementById('p1');
         let cor2 = document.getElementById('p1-1');
+        
+        cor1.style.backgroundColor = 'rgb(212, 212, 212)'
         } else if (res <= 16){
         	window.alert(`${res.toFixed(2)}`);
         } else if (res <= 18,5){
