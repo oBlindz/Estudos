@@ -28,7 +28,10 @@ function calc(){
         
         cor1.style.backgroundColor = 'rgb(212, 212, 212)';
         cor1.style.border = 'none';
-        cor1.style.boxShadow = '3px 3px 0px rgba(212, 212, 212, 0.521)'
+        cor1.style.boxShadow = '3px 3px 0px rgba(212, 212, 212, 0.521)';
+        cor2.style.backgroundColor = 'rgb(119, 136, 153)';
+        cor2.style.border = 'none';
+        cor2.style.boxShadow = '3px 3px 0px rgba(128, 128, 128, 0.521)';
         } else if (res <= 16){
         	window.alert(`${res.toFixed(2)}`);
         } else if (res <= 18,5){
