@@ -27,9 +27,9 @@ function calc(){
         let cor2 = document.getElementById('p1-1');
         let cor3 = document.getElementsByClassName('eita');
         
-        cor.style.backgroundColor = 'white';
-        cor.style.border = '1px dashed rgba(0, 0, 0, 0.384)';
-        cor.style.boxShadow = 'none';
+        cor3.style.backgroundColor = 'white';
+        cor3.style.border = '1px dashed rgba(0, 0, 0, 0.384)';
+        cor3.style.boxShadow = 'none';
         
         cor1.style.backgroundColor = 'rgb(212, 212, 212)';
         cor1.style.border = 'none';
