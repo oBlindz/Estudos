@@ -18,8 +18,6 @@ function isNumeral(n){
 }
 
 function calc(){
-	cor.style.border = '1px dashed rgba(0, 0, 0, 0.384)';
-	cor.style.backgroundColor = 'white';
     if (isNumero(altura.value) && isNumeral(peso.value)){
         let n1 = parseFloat(peso.value);
         let n2 = parseFloat(altura.value);
