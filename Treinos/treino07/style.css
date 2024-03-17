@@ -1,35 +1,39 @@
 @charset "UTF-8";
 
-select{
-    position:absolute;
-}
-div#container{
-    background-color:rgb(230, 226, 230);
+section{
     position:relative;
-    top:250px;
-    left:50%;
-    transform: translateX(-50%);
-    width:210px;
+}
+div.container{
+    background-color:rgb(214, 214, 214);
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.534);
+    border:5px solid rgba(255, 255, 255, 0.815);
     height:90px;
+    width:180px;
     border-radius:50px;
-    border:5px solid rgba(255, 253, 253, 0.5);
-    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.295);
+    position:absolute;
+    top:90px;
+    left:50%;
+    transform:translate(-50%);
 }
-#check{
-    position:relative;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    top:-0.5px;
-    left:-0.5px;
-    background-color:whitesmoke;
-    border:3px solid rgba(255, 255, 255, 0.61);
-    width:84px;
-    height:84px;
+.bola{
+    transition:0.5s;
+    appearance:none;
+    background-color:rgb(246, 246, 247);
+    box-shadow:0px 0px 5px rgba(58, 58, 58, 0.192);
+    height:75px;
+    width:75px;
     border-radius:100%;
+    position:absolute;
+    top:4.5px;
+    left:2.5px;
 }
-#check:checked{
-    left:118.5px;
-    border:3px solid rgba(128, 128, 128, 0.61);
-    background-color: rgb(44, 44, 44);
+.bola:checked{
+    transition:0.5s;
+    background-color:rgb(20, 20, 20);
+    box-shadow:1px 0px 10px rgba(50, 50, 253, 0.562);
+    border:3px solid rgba(65, 65, 65, 0.5);
+    left:95px;
+}
+body{
+    background-color:rgba(50, 50, 253, 0.562);
 }
