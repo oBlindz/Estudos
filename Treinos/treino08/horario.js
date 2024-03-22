@@ -23,5 +23,4 @@ function conversorDeHora(){
     } else {
         console.log(`São ${tempoConvertido}:${minutos}am`);
     }
-    
 }
