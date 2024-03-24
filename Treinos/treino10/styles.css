@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0px;
+    box-sizing:border-box;
+}
+.container{
+    width:80%;
+    margin:10px auto;
+    background-color:orange;
+    border-radius: 20px;
+    border: 1px solid orange;
+    display:grid;
+    grid-template-columns:auto 80px;
+    grid-template-rows:80px;
+    overflow:hidden;
+}
+input.barra{
+    border:none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding:10px;
+    font-size:1.5em;
+    font-family: helvetica;
+    background-color:#fff;
+}
